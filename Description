@@ -1,0 +1,24 @@
+This project is for a company which manage wooden works.
+
+We are supposed to create a front end for the customers and a back end for the administrator.
+
+Front end
+
+Customers can select thw wood type.
+Then he can apply a finishing to that wood(cut finish,thinner or other).
+He can see the price of a suqre foot/linear foot of that material.
+Then he can select the reqired amount of foot.
+
+or else he can provide a defalt furniture type or his own furniture design and obtain a quotation.
+
+If he is satisfied with the amount he can purchase it.
+
+Backend.
+
+Add,Update,Delete and search timber types.
+Add,Update,Delete and search texture types.
+Add,Update,Delete and search furniture types.
+Manage customers.
+Respond to requests.
+
+
