@@ -10,6 +10,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Shopin A Ecommerce Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
 
 <link href="<?php echo base_url()?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/font-awesome.min.css">
+
     <!-- Custom Theme files -->
 <!--theme-style-->
 <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
