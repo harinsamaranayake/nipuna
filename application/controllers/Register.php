@@ -20,9 +20,15 @@ class Register extends CI_Controller
         {
             $this->load->model('Model_user');
             $response = $this->Model_user->insertUserData();
-            if($response){
+            if($response)
+            {
                 $this->session->set_flashdata('msg','Registered succsussfully. please login');
                 redirect('Home/login');
+            }
+            else
+            {
+                $this->session->set_flashdata('msg','something went wrong');
+                redirect('Home/register');
             }
         }
     }

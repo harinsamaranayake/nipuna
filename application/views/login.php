@@ -10,15 +10,21 @@
 <!--login-->
 <div class="container">
 		<div class="login">
-		
-			<form>
+
+            <?php if($this->session->flashdata('errmsg')){
+                echo "<h3>".$this->session->flashdata('errmsg')."</h3>";
+            }
+            ?>
+
+            <?php echo validation_errors(); ?>
+            <?php echo form_open('Login/loginUser'); ?>
 			<div class="col-md-6 login-do">
 				<div class="login-mail">
-					<input type="text" placeholder="Email" required="">
+					<input type="text" placeholder="Email" name="email">
 					<i  class="glyphicon glyphicon-envelope"></i>
 				</div>
 				<div class="login-mail">
-					<input type="password" placeholder="Password" required="">
+					<input type="password" placeholder="Password" name="psw">
 					<i class="glyphicon glyphicon-lock"></i>
 				</div>
 				   <a class="news-letter " href="#">
@@ -38,7 +44,7 @@
 			</div>
 			
 			<div class="clearfix"> </div>
-			</form>
+            <?php echo form_close(); ?>
 		</div>
 
 </div>

@@ -1,5 +1,7 @@
 <?php include 'partials/header.php'?>
 <!--banner-->
+
+
 <div class="banner">
 <div class="container">
 <section class="rw-wrapper">
